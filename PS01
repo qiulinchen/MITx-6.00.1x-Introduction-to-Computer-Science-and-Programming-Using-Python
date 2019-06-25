@@ -1,0 +1,20 @@
+# Problem 1
+
+s = 'azcbobobegghakl'
+
+count = 0
+for i in s:
+    if i in 'aeiou':
+        count += 1
+print( 'Number of vowels:', count)
+
+# Problem 2
+
+s = 'azcbobobegghakl'
+
+counter = 0
+for i in range(len(s)):
+    if s[i:i+3] == 'bob':
+        counter += 1
+
+print ('Number of times bob occurs is:', counter)
